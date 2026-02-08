@@ -1,9 +1,9 @@
-import { User, Layers, Briefcase, Envelope, FileText } from '@phosphor-icons/react';
+import { User, Stack, Briefcase, Envelope, FileText } from '@phosphor-icons/react';
 
 export const BottomNav = ({ onOpenResume }) => {
     const navItems = [
         { icon: User, label: 'About', href: './#about' },
-        { icon: Layers, label: 'Expertise', href: './#expertise' },
+        { icon: Stack, label: 'Expertise', href: './#expertise' },
         { icon: Briefcase, label: 'Journey', href: './#experience' },
         { icon: FileText, label: 'Resume', href: '#' },
         { icon: Envelope, label: 'Contact', href: './#contact' },
