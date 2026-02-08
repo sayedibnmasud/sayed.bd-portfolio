@@ -1,12 +1,12 @@
-import { PersonIcon, LayersIcon, RocketIcon, EnvelopeClosedIcon, FileTextIcon } from '@radix-ui/react-icons';
+import { UserIcon, Square3Stack3DIcon, BriefcaseIcon, EnvelopeIcon, DocumentTextIcon } from '@heroicons/react/24/outline';
 
 export const BottomNav = ({ onOpenResume }) => {
     const navItems = [
-        { icon: PersonIcon, label: 'About', href: './#about' },
-        { icon: RocketIcon, label: 'Journey', href: './#experience' },
-        { icon: LayersIcon, label: 'Expertise', href: './#expertise' },
-        { icon: FileTextIcon, label: 'Resume', href: '#' },
-        { icon: EnvelopeClosedIcon, label: 'Contact', href: './#contact' },
+        { icon: UserIcon, label: 'About', href: './#about' },
+        { icon: BriefcaseIcon, label: 'Journey', href: './#experience' },
+        { icon: Square3Stack3DIcon, label: 'Expertise', href: './#expertise' },
+        { icon: DocumentTextIcon, label: 'Resume', href: '#' },
+        { icon: EnvelopeIcon, label: 'Contact', href: './#contact' },
     ];
 
     const handleClick = (e, item) => {

@@ -1,4 +1,5 @@
-import { EnvelopeClosedIcon, LinkedInLogoIcon, GitHubLogoIcon } from '@radix-ui/react-icons';
+import { EnvelopeIcon } from '@heroicons/react/24/outline';
+import { LinkedInLogoIcon, GitHubLogoIcon } from '@radix-ui/react-icons';
 
 export const Footer = () => {
     return (
@@ -13,7 +14,7 @@ export const Footer = () => {
                 <div className="flex flex-col md:flex-row items-center gap-6">
                     <a href="mailto:sayedibnmasud@gmail.com" className="inline-flex items-center gap-2 px-6 py-3 bg-primary-600 text-white rounded-lg font-medium hover:bg-primary-700 transition-colors shadow-lg shadow-primary-200 dark:shadow-primary-900/30">
                         Reach out via Email
-                        <EnvelopeClosedIcon className="w-4 h-4" />
+                        <EnvelopeIcon className="w-4 h-4" />
                     </a>
 
                     <div className="flex items-center gap-6 text-gray-400">

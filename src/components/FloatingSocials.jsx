@@ -1,4 +1,5 @@
-import { LinkedInLogoIcon, EnvelopeClosedIcon, FileTextIcon } from '@radix-ui/react-icons';
+import { EnvelopeIcon, DocumentTextIcon } from '@heroicons/react/24/outline';
+import { LinkedInLogoIcon } from '@radix-ui/react-icons';
 
 export const FloatingSocials = ({ onOpenResume }) => {
     return (
@@ -12,7 +13,7 @@ export const FloatingSocials = ({ onOpenResume }) => {
                     onClick={onOpenResume}
                     className="w-12 h-12 bg-white dark:bg-gray-800 rounded-full shadow-lg border border-gray-100 dark:border-gray-700 flex items-center justify-center text-gray-600 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 hover:scale-110 hover:shadow-primary-100 dark:hover:shadow-primary-900 transition-all duration-300"
                 >
-                    <FileTextIcon className="w-5 h-5" />
+                    <DocumentTextIcon className="w-5 h-5" />
                 </button>
             </div>
 
@@ -25,7 +26,7 @@ export const FloatingSocials = ({ onOpenResume }) => {
                     href="mailto:sayedibnmasud@gmail.com"
                     className="w-12 h-12 bg-white dark:bg-gray-800 rounded-full shadow-lg border border-gray-100 dark:border-gray-700 flex items-center justify-center text-gray-600 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 hover:scale-110 hover:shadow-primary-100 dark:hover:shadow-primary-900 transition-all duration-300"
                 >
-                    <EnvelopeClosedIcon className="w-5 h-5" />
+                    <EnvelopeIcon className="w-5 h-5" />
                 </a>
             </div>
 

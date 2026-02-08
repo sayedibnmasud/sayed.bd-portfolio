@@ -1,4 +1,4 @@
-import { CheckCircledIcon, QuoteIcon } from '@radix-ui/react-icons';
+import { CheckCircleIcon } from '@heroicons/react/24/outline';
 
 export const Expertise = () => {
     const skills = [
@@ -36,7 +36,7 @@ export const Expertise = () => {
                             <ul className="space-y-4">
                                 {skillGroup.items.map((item, i) => (
                                     <li key={i} className="text-sm text-gray-600 dark:text-gray-400 font-medium flex items-start gap-3">
-                                        <CheckCircledIcon className="w-4 h-4 text-indigo-500 mt-0.5 shrink-0" />
+                                        <CheckCircleIcon className="w-4 h-4 text-indigo-500 mt-0.5 shrink-0" />
                                         <span>{item}</span>
                                     </li>
                                 ))}
