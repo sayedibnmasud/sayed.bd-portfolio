@@ -49,7 +49,6 @@ export const DeepDive = () => {
                                     transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
                                     className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-primary-600 text-white px-5 sm:px-6 py-3 sm:py-4 rounded-2xl shadow-xl ring-2 ring-primary-100 dark:ring-primary-900/50 z-20 flex flex-col items-center text-center w-32 sm:w-40"
                                 >
-                                    <span className="text-[9px] sm:text-[10px] font-semibold opacity-90 uppercase tracking-wider mb-1">PM</span>
                                     <span className="font-bold text-xs sm:text-sm leading-tight">Product Manager</span>
                                 </motion.div>
 
