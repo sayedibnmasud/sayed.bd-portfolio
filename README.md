@@ -20,7 +20,7 @@ This project was built using modern web technologies and AI-assisted pair progra
 - **Styling**: Vanilla CSS (Custom design system)
 - **Icons**: [Lucide React](https://lucide.dev/)
 - **Animation**: CSS Keyframes + Framer Motion (where applicable)
-- **Design Inspiration**: Designed with **Stich**
+- **Design Inspiration**: Designed with [Stitch](https://stitch.withgoogle.com/)
 - **AI Development**: Developed with ✨ **Antigravity**
 
 ## 📂 Project Structure
