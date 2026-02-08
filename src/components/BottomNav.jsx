@@ -1,12 +1,12 @@
-import { UserIcon, Square3Stack3DIcon, BriefcaseIcon, EnvelopeIcon, DocumentTextIcon } from '@heroicons/react/24/outline';
+import { User, Layers, Briefcase, Mail, FileText } from 'lucide-react';
 
 export const BottomNav = ({ onOpenResume }) => {
     const navItems = [
-        { icon: UserIcon, label: 'About', href: './#about' },
-        { icon: BriefcaseIcon, label: 'Journey', href: './#experience' },
-        { icon: Square3Stack3DIcon, label: 'Expertise', href: './#expertise' },
-        { icon: DocumentTextIcon, label: 'Resume', href: '#' },
-        { icon: EnvelopeIcon, label: 'Contact', href: './#contact' },
+        { icon: User, label: 'About', href: './#about' },
+        { icon: Briefcase, label: 'Journey', href: './#experience' },
+        { icon: Layers, label: 'Expertise', href: './#expertise' },
+        { icon: FileText, label: 'Resume', href: '#' },
+        { icon: Mail, label: 'Contact', href: './#contact' },
     ];
 
     const handleClick = (e, item) => {
@@ -26,7 +26,7 @@ export const BottomNav = ({ onOpenResume }) => {
                         onClick={(e) => handleClick(e, item)}
                         className="flex flex-col items-center justify-center gap-1 text-gray-500 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 active:text-primary-600 dark:active:text-primary-400 transition-colors"
                     >
-                        <item.icon className="w-5 h-5" />
+                        <item.icon strokeWidth={1.5} className="w-5 h-5" />
                         <span className="text-[10px] font-medium tracking-wide">{item.label}</span>
                     </a>
                 ))}

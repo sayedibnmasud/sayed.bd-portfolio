@@ -1,4 +1,4 @@
-import { SunIcon, MoonIcon } from '@heroicons/react/24/outline';
+import { Sun, Moon } from 'lucide-react';
 import { useEffect, useState } from 'react';
 
 export const ThemeToggle = () => {
@@ -32,7 +32,7 @@ export const ThemeToggle = () => {
             className="p-2 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
             aria-label="Toggle Dark Mode"
         >
-            {isDark ? <SunIcon className="w-5 h-5" /> : <MoonIcon className="w-5 h-5" />}
+            {isDark ? <Sun strokeWidth={1.5} className="w-5 h-5" /> : <Moon strokeWidth={1.5} className="w-5 h-5" />}
         </button>
     );
 };

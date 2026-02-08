@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
-import { ArchiveBoxIcon, ComputerDesktopIcon, CheckCircleIcon, GlobeAltIcon, Square3Stack3DIcon, CubeIcon, UserGroupIcon, WindowIcon, ChatBubbleLeftRightIcon, CalendarIcon } from '@heroicons/react/24/outline';
-import { GitHubLogoIcon } from '@radix-ui/react-icons';
+import { Archive, Server, ShieldCheck, Globe, Layers, Workflow, Users, Layout, Code2, MessageSquare, Calendar, Github } from 'lucide-react';
 
 export const DeepDive = () => {
     return (
@@ -18,13 +17,13 @@ export const DeepDive = () => {
 
                         <div className="space-y-8">
                             {[
-                                { title: "Technical Feasibility Analysis", desc: "Assessing architectural trade-offs early to prevent debt and ensure scalability.", icon: Square3Stack3DIcon },
-                                { title: "API-First Product Design", desc: "Defining clear contracts for high-throughput integrations and partner ecosystems.", icon: GlobeAltIcon },
-                                { title: "Security & Compliance Leadership", desc: "translating SOC2/GDPR requirements into actionable product features.", icon: CheckCircleIcon }
+                                { title: "Technical Feasibility Analysis", desc: "Assessing architectural trade-offs early to prevent debt and ensure scalability.", icon: Layers },
+                                { title: "API-First Product Design", desc: "Defining clear contracts for high-throughput integrations and partner ecosystems.", icon: Globe },
+                                { title: "Security & Compliance Leadership", desc: "translating SOC2/GDPR requirements into actionable product features.", icon: ShieldCheck }
                             ].map((item, i) => (
                                 <div key={i} className="flex gap-4">
                                     <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-white dark:bg-gray-800 shadow-sm flex items-center justify-center text-primary-600 dark:text-primary-400">
-                                        <item.icon className="w-6 h-6" />
+                                        <item.icon strokeWidth={1.5} className="w-6 h-6" />
                                     </div>
                                     <div>
                                         <h4 className="font-bold text-gray-900 dark:text-white text-lg mb-1">{item.title}</h4>
@@ -55,19 +54,19 @@ export const DeepDive = () => {
 
                                 {/* Team Members in Circle */}
                                 {[
-                                    { title: "Design", icon: WindowIcon, color: "text-pink-500", bg: "bg-pink-50 dark:bg-pink-900/20", border: "border-pink-100 dark:border-pink-800", position: "top-0 left-1/2 -translate-x-1/2" },
-                                    { title: "Engineering", icon: GitHubLogoIcon, color: "text-blue-500", bg: "bg-blue-50 dark:bg-blue-900/20", border: "border-blue-100 dark:border-blue-800", position: "top-[15%] right-[5%]" },
-                                    { title: "QA", icon: CheckCircleIcon, color: "text-green-500", bg: "bg-green-50 dark:bg-green-900/20", border: "border-green-100 dark:border-green-800", position: "bottom-[15%] right-[5%]" },
-                                    { title: "DevOps", icon: ComputerDesktopIcon, color: "text-orange-500", bg: "bg-orange-50 dark:bg-orange-900/20", border: "border-orange-100 dark:border-orange-800", position: "bottom-0 left-1/2 -translate-x-1/2" },
-                                    { title: "Client", icon: UserGroupIcon, color: "text-purple-500", bg: "bg-purple-50 dark:bg-purple-900/20", border: "border-purple-100 dark:border-purple-800", position: "bottom-[15%] left-[5%]" },
-                                    { title: "Stakeholders", icon: CalendarIcon, color: "text-indigo-500", bg: "bg-indigo-50 dark:bg-indigo-900/20", border: "border-indigo-100 dark:border-indigo-800", position: "top-[15%] left-[5%]" }
+                                    { title: "Design", icon: Layout, color: "text-pink-500", bg: "bg-pink-50 dark:bg-pink-900/20", border: "border-pink-100 dark:border-pink-800", position: "top-0 left-1/2 -translate-x-1/2" },
+                                    { title: "Engineering", icon: Code2, color: "text-blue-500", bg: "bg-blue-50 dark:bg-blue-900/20", border: "border-blue-100 dark:border-blue-800", position: "top-[15%] right-[5%]" },
+                                    { title: "QA", icon: ShieldCheck, color: "text-green-500", bg: "bg-green-50 dark:bg-green-900/20", border: "border-green-100 dark:border-green-800", position: "bottom-[15%] right-[5%]" },
+                                    { title: "DevOps", icon: Server, color: "text-orange-500", bg: "bg-orange-50 dark:bg-orange-900/20", border: "border-orange-100 dark:border-orange-800", position: "bottom-0 left-1/2 -translate-x-1/2" },
+                                    { title: "Client", icon: Users, color: "text-purple-500", bg: "bg-purple-50 dark:bg-purple-900/20", border: "border-purple-100 dark:border-purple-800", position: "bottom-[15%] left-[5%]" },
+                                    { title: "Stakeholders", icon: Calendar, color: "text-indigo-500", bg: "bg-indigo-50 dark:bg-indigo-900/20", border: "border-indigo-100 dark:border-indigo-800", position: "top-[15%] left-[5%]" }
                                 ].map((role, idx) => (
                                     <motion.div
                                         key={idx}
                                         whileHover={{ scale: 1.05 }}
                                         className={`absolute ${role.position} ${role.bg} border ${role.border} rounded-xl sm:rounded-2xl flex flex-col items-center justify-center shadow-md p-2 sm:p-3 w-16 sm:w-20 h-16 sm:h-20`}
                                     >
-                                        <role.icon className={`w-5 sm:w-6 h-5 sm:h-6 ${role.color} mb-1 flex-shrink-0`} />
+                                        <role.icon strokeWidth={1.5} className={`w-5 sm:w-6 h-5 sm:h-6 ${role.color} mb-1 flex-shrink-0`} />
                                         <span className="text-[8px] sm:text-[9px] font-bold text-gray-700 dark:text-gray-300 uppercase tracking-wide text-center leading-tight">{role.title}</span>
                                     </motion.div>
                                 ))}
@@ -79,7 +78,7 @@ export const DeepDive = () => {
                             </div>
 
                             <div className="mt-8 sm:mt-12 flex items-center justify-center gap-2 text-xs sm:text-sm text-gray-400 font-medium">
-                                <ChatBubbleLeftRightIcon className="w-4 h-4 flex-shrink-0" />
+                                <MessageSquare strokeWidth={1.5} className="w-4 h-4 flex-shrink-0" />
                                 <span className="text-center">Cross-Functional Collaboration</span>
                             </div>
                         </div>
@@ -100,13 +99,13 @@ export const DeepDive = () => {
                         <div className="grid sm:grid-cols-2 gap-8">
                             <div>
                                 <h4 className="text-xl font-bold mb-3 flex items-center gap-2">
-                                    <CheckCircleIcon className="w-5 h-5 text-primary-400" /> Risk Mitigation
+                                    <ShieldCheck strokeWidth={1.5} className="w-5 h-5 text-primary-400" /> Risk Mitigation
                                 </h4>
                                 <p className="text-primary-200 text-sm leading-relaxed">Implementing shift-left testing methodologies to identify architectural flaws before code leaves writers.</p>
                             </div>
                             <div>
                                 <h4 className="text-xl font-bold mb-3 flex items-center gap-2">
-                                    <CubeIcon className="w-5 h-5 text-primary-400" /> Automated Suites
+                                    <Workflow strokeWidth={1.5} className="w-5 h-5 text-primary-400" /> Automated Suites
                                 </h4>
                                 <p className="text-primary-200 text-sm leading-relaxed">Designing end-to-end regression tests that cover 350+ of critical user paths in multi-tenant environments.</p>
                             </div>
