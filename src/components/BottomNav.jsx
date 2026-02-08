@@ -17,7 +17,7 @@ export const BottomNav = ({ onOpenResume }) => {
     };
 
     return (
-        <nav className="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-white/90 dark:bg-gray-950/90 backdrop-blur-lg border-t border-gray-200 dark:border-gray-800 pb-safe">
+        <nav className="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-white/60 dark:bg-black/60 backdrop-blur-2xl backdrop-saturate-150 border-t border-white/20 dark:border-white/10 pb-safe">
             <div className="grid grid-cols-5 h-16">
                 {navItems.map((item, idx) => (
                     <a

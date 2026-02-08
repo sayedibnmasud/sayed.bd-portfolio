@@ -53,8 +53,8 @@ export const Header = () => {
                 </div>
             </div>
 
-            {/* Glassmorphism background */}
-            <div className="absolute inset-0 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md -z-10 border-b border-gray-100/50 dark:border-gray-800/50"></div>
+            {/* Premium Apple Glass effect */}
+            <div className="absolute inset-0 bg-white/60 dark:bg-black/60 backdrop-blur-2xl backdrop-saturate-150 -z-10 border-b border-white/20 dark:border-white/10"></div>
         </header>
     );
 };
