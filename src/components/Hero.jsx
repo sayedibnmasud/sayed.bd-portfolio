@@ -32,7 +32,7 @@ export const Hero = ({ onOpenResume }) => {
                     <div className="flex flex-wrap gap-4">
                         <a href="#deep-dive" className="inline-flex items-center gap-2 px-8 py-4 bg-primary-600 text-white rounded-lg font-medium transition-all hover:bg-primary-700 hover:shadow-lg hover:shadow-primary-200 dark:hover:shadow-primary-900 active:transform active:scale-95 whitespace-nowrap">
                             View Impact Portfolio
-                            <ArrowRight weight="bold" className="w-4 h-4" />
+                            <ArrowRight className="w-4 h-4" />
                         </a>
 
                         <button
@@ -40,7 +40,7 @@ export const Hero = ({ onOpenResume }) => {
                             className="inline-flex items-center gap-2 px-8 py-4 bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300 rounded-lg font-medium transition-all hover:border-gray-300 dark:hover:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-800 active:transform active:scale-95 whitespace-nowrap"
                         >
                             View My Resume
-                            <Eye weight="bold" className="w-4 h-4" />
+                            <Eye className="w-4 h-4" />
                         </button>
                     </div>
                 </div>

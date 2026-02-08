@@ -26,7 +26,7 @@ export const BottomNav = ({ onOpenResume }) => {
                         onClick={(e) => handleClick(e, item)}
                         className="flex flex-col items-center justify-center gap-1 text-gray-500 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 active:text-primary-600 dark:active:text-primary-400 transition-colors"
                     >
-                        <item.icon weight="bold" className="w-5 h-5" />
+                        <item.icon className="w-5 h-5" />
                         <span className="text-[10px] font-medium tracking-wide">{item.label}</span>
                     </a>
                 ))}

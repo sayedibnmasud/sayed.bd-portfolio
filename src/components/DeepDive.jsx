@@ -23,7 +23,7 @@ export const DeepDive = () => {
                             ].map((item, i) => (
                                 <div key={i} className="flex gap-4">
                                     <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-white dark:bg-gray-800 shadow-sm flex items-center justify-center text-primary-600 dark:text-primary-400">
-                                        <item.icon weight="bold" className="w-6 h-6" />
+                                        <item.icon className="w-6 h-6" />
                                     </div>
                                     <div>
                                         <h4 className="font-bold text-gray-900 dark:text-white text-lg mb-1">{item.title}</h4>
@@ -67,7 +67,7 @@ export const DeepDive = () => {
                                         whileHover={{ scale: 1.05 }}
                                         className={`absolute ${role.position} ${role.bg} border ${role.border} rounded-xl sm:rounded-2xl flex flex-col items-center justify-center shadow-md p-2 sm:p-3 w-16 sm:w-20 h-16 sm:h-20`}
                                     >
-                                        <role.icon weight="bold" className={`w-5 sm:w-6 h-5 sm:h-6 ${role.color} mb-1 flex-shrink-0`} />
+                                        <role.icon className={`w-5 sm:w-6 h-5 sm:h-6 ${role.color} mb-1 flex-shrink-0`} />
                                         <span className="text-[8px] sm:text-[9px] font-bold text-gray-700 dark:text-gray-300 uppercase tracking-wide text-center leading-tight">{role.title}</span>
                                     </motion.div>
                                 ))}
@@ -79,7 +79,7 @@ export const DeepDive = () => {
                             </div>
 
                             <div className="mt-8 sm:mt-12 flex items-center justify-center gap-2 text-xs sm:text-sm text-gray-400 font-medium">
-                                <ChatCircleDots weight="bold" className="w-4 h-4 flex-shrink-0" />
+                                <ChatCircleDots className="w-4 h-4 flex-shrink-0" />
                                 <span className="text-center">Cross-Functional Collaboration</span>
                             </div>
                         </div>
@@ -100,13 +100,13 @@ export const DeepDive = () => {
                         <div className="grid sm:grid-cols-2 gap-8">
                             <div>
                                 <h4 className="text-xl font-bold mb-3 flex items-center gap-2">
-                                    <ShieldCheck weight="bold" className="w-5 h-5 text-primary-400" /> Risk Mitigation
+                                    <ShieldCheck className="w-5 h-5 text-primary-400" /> Risk Mitigation
                                 </h4>
                                 <p className="text-primary-200 text-sm leading-relaxed">Implementing shift-left testing methodologies to identify architectural flaws before code leaves writers.</p>
                             </div>
                             <div>
                                 <h4 className="text-xl font-bold mb-3 flex items-center gap-2">
-                                    <TreeStructure weight="bold" className="w-5 h-5 text-primary-400" /> Automated Suites
+                                    <TreeStructure className="w-5 h-5 text-primary-400" /> Automated Suites
                                 </h4>
                                 <p className="text-primary-200 text-sm leading-relaxed">Designing end-to-end regression tests that cover 350+ of critical user paths in multi-tenant environments.</p>
                             </div>
