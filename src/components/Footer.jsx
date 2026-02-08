@@ -1,4 +1,4 @@
-import { Mail, Linkedin, Github } from 'lucide-react';
+import { Envelope, LinkedinLogo, GithubLogo } from '@phosphor-icons/react';
 
 export const Footer = () => {
     return (
@@ -13,16 +13,16 @@ export const Footer = () => {
                 <div className="flex flex-col md:flex-row items-center gap-6">
                     <a href="mailto:sayedibnmasud@gmail.com" className="inline-flex items-center gap-2 px-6 py-3 bg-primary-600 text-white rounded-lg font-medium hover:bg-primary-700 transition-colors shadow-lg shadow-primary-200 dark:shadow-primary-900/30">
                         Reach out via Email
-                        <Mail className="w-4 h-4" />
+                        <Envelope weight="bold" className="w-4 h-4" />
                     </a>
 
                     <div className="flex items-center gap-6 text-gray-400">
                         <a href="https://linkedin.com/in/sayedibnmasud" target="_blank" rel="noopener noreferrer" className="hover:text-primary-600 dark:hover:text-primary-400 transition-colors flex items-center gap-2 text-sm font-medium">
-                            <Linkedin className="w-5 h-5" />
+                            <LinkedinLogo weight="bold" className="w-5 h-5" />
                             LinkedIn
                         </a>
                         <a href="https://github.com/sayedibnmasud" target="_blank" rel="noopener noreferrer" className="hover:text-primary-600 dark:hover:text-primary-400 transition-colors flex items-center gap-2 text-sm font-medium">
-                            <Github className="w-5 h-5" />
+                            <GithubLogo weight="bold" className="w-5 h-5" />
                             Github
                         </a>
                     </div>

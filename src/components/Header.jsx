@@ -40,7 +40,7 @@ export const Header = () => {
                     <nav className="hidden md:flex items-center gap-8">
                         <a href="./#about" className="text-xs font-medium text-gray-500 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 uppercase tracking-widest transition-colors">About</a>
                         <a href="./#expertise" className="text-xs font-medium text-gray-500 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 uppercase tracking-widest transition-colors">Expertise</a>
-                        <a href="./#experience" className="text-xs font-medium text-gray-500 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 uppercase tracking-widest transition-colors">Experience</a>
+                        <a href="./#experience" className="text-xs font-medium text-gray-500 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 uppercase tracking-widest transition-colors">Journey</a>
 
                         <ThemeToggle />
 
