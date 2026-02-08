@@ -1,16 +1,34 @@
-# React + Vite
+# Sayed Ibn Masud - Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio website for Sayed Ibn Masud, a Senior Product Manager. This project showcases professional experience, product philosophy, and creative journey in a modern, interactive web interface.
 
-Currently, two official plugins are available:
+## 🚀 About the Website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This portfolio is designed to provide a premium, interactive experience that reflects a product-first mindset. It features:
+- **Dynamic Hero Section**: Highlighting key branding as a Sr. PM.
+- **Interactive Journey**: A visual timeline of professional growth.
+- **Product Ecosystem**: Showcasing the breadth of impact across different domains.
+- **Interactive Resume**: A custom PDF viewer integrated directly into the experience.
+- **Mobile-First Design**: Optimized for all devices with a sleek bottom navigation bar.
+- **Premium Aesthetics**: Using glassmorphism, smooth transitions, and a curated Indigo color palette.
 
-## React Compiler
+## 🛠️ How It Was Built
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project was built using modern web technologies and AI-assisted pair programming.
 
-## Expanding the ESLint configuration
+- **Frontend**: [React](https://react.dev/) + [Vite](https://vite.dev/)
+- **Styling**: Vanilla CSS (Custom design system)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Animation**: CSS Keyframes + Framer Motion (where applicable)
+- **Design Inspiration**: Designed with **Stich**
+- **AI Development**: Developed with ✨ **Antigravity**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+
+- `src/components`: Modular React components for each section.
+- `src/assets`: Static assets and media.
+- `public/`: Public assets including the interactive resume and branding files.
+
+---
+
+Developed with ❤️ by Sayed & Antigravity.
