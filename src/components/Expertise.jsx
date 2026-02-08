@@ -1,6 +1,6 @@
 import { Quote, CheckCircle2 } from 'lucide-react';
 
-export const Ecosystem = () => {
+export const Expertise = () => {
     const skills = [
         {
             category: "Process Management",
@@ -22,7 +22,7 @@ export const Ecosystem = () => {
 
                 <div className="flex items-center gap-3 mb-16 max-w-2xl mx-auto">
                     <div className="h-px flex-1 bg-gray-200 dark:bg-gray-800"></div>
-                    <span className="text-primary-600 dark:text-primary-400 font-semibold tracking-wider text-sm uppercase">Ecosystem</span>
+                    <span className="text-primary-600 dark:text-primary-400 font-semibold tracking-wider text-sm uppercase">Expertise</span>
                     <div className="h-px flex-1 bg-gray-200 dark:bg-gray-800"></div>
                 </div>
 

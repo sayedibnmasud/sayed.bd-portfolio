@@ -6,7 +6,7 @@ import { Hero } from './components/Hero';
 import { Summary } from './components/Summary';
 import { DeepDive } from './components/DeepDive';
 import { Journey } from './components/Journey';
-import { Ecosystem } from './components/Ecosystem';
+import { Expertise } from './components/Expertise';
 import { Footer } from './components/Footer';
 import { BottomNav } from './components/BottomNav';
 import { NotFound } from './components/NotFound';
@@ -18,7 +18,7 @@ const Home = ({ onOpenResume }) => (
     <Summary />
     <DeepDive />
     <Journey />
-    <Ecosystem />
+    <Expertise />
   </>
 );
 
