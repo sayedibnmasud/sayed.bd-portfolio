@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Database, HardDrives, ShieldCheck, Globe, Stack, TreeStructure, Users, Layout, GitMerge, ChatCircleDots, Calendar } from '@phosphor-icons/react';
+import { ArchiveIcon, DesktopIcon, CheckCircledIcon, GlobeIcon, LayersIcon, Component1Icon, GroupIcon, LayoutIcon, GitHubLogoIcon, ChatBubbleIcon, CalendarIcon } from '@radix-ui/react-icons';
 
 export const DeepDive = () => {
     return (
@@ -17,9 +17,9 @@ export const DeepDive = () => {
 
                         <div className="space-y-8">
                             {[
-                                { title: "Technical Feasibility Analysis", desc: "Assessing architectural trade-offs early to prevent debt and ensure scalability.", icon: Stack },
-                                { title: "API-First Product Design", desc: "Defining clear contracts for high-throughput integrations and partner ecosystems.", icon: Globe },
-                                { title: "Security & Compliance Leadership", desc: "translating SOC2/GDPR requirements into actionable product features.", icon: ShieldCheck }
+                                { title: "Technical Feasibility Analysis", desc: "Assessing architectural trade-offs early to prevent debt and ensure scalability.", icon: LayersIcon },
+                                { title: "API-First Product Design", desc: "Defining clear contracts for high-throughput integrations and partner ecosystems.", icon: GlobeIcon },
+                                { title: "Security & Compliance Leadership", desc: "translating SOC2/GDPR requirements into actionable product features.", icon: CheckCircledIcon }
                             ].map((item, i) => (
                                 <div key={i} className="flex gap-4">
                                     <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-white dark:bg-gray-800 shadow-sm flex items-center justify-center text-primary-600 dark:text-primary-400">
@@ -55,12 +55,12 @@ export const DeepDive = () => {
 
                                 {/* Team Members in Circle */}
                                 {[
-                                    { title: "Design", icon: Layout, color: "text-pink-500", bg: "bg-pink-50 dark:bg-pink-900/20", border: "border-pink-100 dark:border-pink-800", position: "top-0 left-1/2 -translate-x-1/2" },
-                                    { title: "Engineering", icon: GitMerge, color: "text-blue-500", bg: "bg-blue-50 dark:bg-blue-900/20", border: "border-blue-100 dark:border-blue-800", position: "top-[15%] right-[5%]" },
-                                    { title: "QA", icon: ShieldCheck, color: "text-green-500", bg: "bg-green-50 dark:bg-green-900/20", border: "border-green-100 dark:border-green-800", position: "bottom-[15%] right-[5%]" },
-                                    { title: "DevOps", icon: HardDrives, color: "text-orange-500", bg: "bg-orange-50 dark:bg-orange-900/20", border: "border-orange-100 dark:border-orange-800", position: "bottom-0 left-1/2 -translate-x-1/2" },
-                                    { title: "Client", icon: Users, color: "text-purple-500", bg: "bg-purple-50 dark:bg-purple-900/20", border: "border-purple-100 dark:border-purple-800", position: "bottom-[15%] left-[5%]" },
-                                    { title: "Stakeholders", icon: Calendar, color: "text-indigo-500", bg: "bg-indigo-50 dark:bg-indigo-900/20", border: "border-indigo-100 dark:border-indigo-800", position: "top-[15%] left-[5%]" }
+                                    { title: "Design", icon: LayoutIcon, color: "text-pink-500", bg: "bg-pink-50 dark:bg-pink-900/20", border: "border-pink-100 dark:border-pink-800", position: "top-0 left-1/2 -translate-x-1/2" },
+                                    { title: "Engineering", icon: GitHubLogoIcon, color: "text-blue-500", bg: "bg-blue-50 dark:bg-blue-900/20", border: "border-blue-100 dark:border-blue-800", position: "top-[15%] right-[5%]" },
+                                    { title: "QA", icon: CheckCircledIcon, color: "text-green-500", bg: "bg-green-50 dark:bg-green-900/20", border: "border-green-100 dark:border-green-800", position: "bottom-[15%] right-[5%]" },
+                                    { title: "DevOps", icon: DesktopIcon, color: "text-orange-500", bg: "bg-orange-50 dark:bg-orange-900/20", border: "border-orange-100 dark:border-orange-800", position: "bottom-0 left-1/2 -translate-x-1/2" },
+                                    { title: "Client", icon: GroupIcon, color: "text-purple-500", bg: "bg-purple-50 dark:bg-purple-900/20", border: "border-purple-100 dark:border-purple-800", position: "bottom-[15%] left-[5%]" },
+                                    { title: "Stakeholders", icon: CalendarIcon, color: "text-indigo-500", bg: "bg-indigo-50 dark:bg-indigo-900/20", border: "border-indigo-100 dark:border-indigo-800", position: "top-[15%] left-[5%]" }
                                 ].map((role, idx) => (
                                     <motion.div
                                         key={idx}
@@ -79,7 +79,7 @@ export const DeepDive = () => {
                             </div>
 
                             <div className="mt-8 sm:mt-12 flex items-center justify-center gap-2 text-xs sm:text-sm text-gray-400 font-medium">
-                                <ChatCircleDots className="w-4 h-4 flex-shrink-0" />
+                                <ChatBubbleIcon className="w-4 h-4 flex-shrink-0" />
                                 <span className="text-center">Cross-Functional Collaboration</span>
                             </div>
                         </div>
@@ -100,13 +100,13 @@ export const DeepDive = () => {
                         <div className="grid sm:grid-cols-2 gap-8">
                             <div>
                                 <h4 className="text-xl font-bold mb-3 flex items-center gap-2">
-                                    <ShieldCheck className="w-5 h-5 text-primary-400" /> Risk Mitigation
+                                    <CheckCircledIcon className="w-5 h-5 text-primary-400" /> Risk Mitigation
                                 </h4>
                                 <p className="text-primary-200 text-sm leading-relaxed">Implementing shift-left testing methodologies to identify architectural flaws before code leaves writers.</p>
                             </div>
                             <div>
                                 <h4 className="text-xl font-bold mb-3 flex items-center gap-2">
-                                    <TreeStructure className="w-5 h-5 text-primary-400" /> Automated Suites
+                                    <Component1Icon className="w-5 h-5 text-primary-400" /> Automated Suites
                                 </h4>
                                 <p className="text-primary-200 text-sm leading-relaxed">Designing end-to-end regression tests that cover 350+ of critical user paths in multi-tenant environments.</p>
                             </div>

@@ -1,12 +1,12 @@
-import { User, Stack, Briefcase, Envelope, FileText } from '@phosphor-icons/react';
+import { PersonIcon, LayersIcon, RocketIcon, EnvelopeClosedIcon, FileTextIcon } from '@radix-ui/react-icons';
 
 export const BottomNav = ({ onOpenResume }) => {
     const navItems = [
-        { icon: User, label: 'About', href: './#about' },
-        { icon: Briefcase, label: 'Journey', href: './#experience' },
-        { icon: Stack, label: 'Expertise', href: './#expertise' },
-        { icon: FileText, label: 'Resume', href: '#' },
-        { icon: Envelope, label: 'Contact', href: './#contact' },
+        { icon: PersonIcon, label: 'About', href: './#about' },
+        { icon: RocketIcon, label: 'Journey', href: './#experience' },
+        { icon: LayersIcon, label: 'Expertise', href: './#expertise' },
+        { icon: FileTextIcon, label: 'Resume', href: '#' },
+        { icon: EnvelopeClosedIcon, label: 'Contact', href: './#contact' },
     ];
 
     const handleClick = (e, item) => {

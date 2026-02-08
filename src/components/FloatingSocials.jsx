@@ -1,4 +1,4 @@
-import { LinkedinLogo, Envelope, FileText } from '@phosphor-icons/react';
+import { LinkedInLogoIcon, EnvelopeClosedIcon, FileTextIcon } from '@radix-ui/react-icons';
 
 export const FloatingSocials = ({ onOpenResume }) => {
     return (
@@ -12,7 +12,7 @@ export const FloatingSocials = ({ onOpenResume }) => {
                     onClick={onOpenResume}
                     className="w-12 h-12 bg-white dark:bg-gray-800 rounded-full shadow-lg border border-gray-100 dark:border-gray-700 flex items-center justify-center text-gray-600 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 hover:scale-110 hover:shadow-primary-100 dark:hover:shadow-primary-900 transition-all duration-300"
                 >
-                    <FileText className="w-5 h-5" />
+                    <FileTextIcon className="w-5 h-5" />
                 </button>
             </div>
 
@@ -25,7 +25,7 @@ export const FloatingSocials = ({ onOpenResume }) => {
                     href="mailto:sayedibnmasud@gmail.com"
                     className="w-12 h-12 bg-white dark:bg-gray-800 rounded-full shadow-lg border border-gray-100 dark:border-gray-700 flex items-center justify-center text-gray-600 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 hover:scale-110 hover:shadow-primary-100 dark:hover:shadow-primary-900 transition-all duration-300"
                 >
-                    <Envelope className="w-5 h-5" />
+                    <EnvelopeClosedIcon className="w-5 h-5" />
                 </a>
             </div>
 
@@ -40,7 +40,7 @@ export const FloatingSocials = ({ onOpenResume }) => {
                     rel="noopener noreferrer"
                     className="w-12 h-12 bg-[#0077b5] rounded-full shadow-lg flex items-center justify-center text-white hover:bg-[#006396] hover:scale-110 hover:shadow-blue-200 transition-all duration-300"
                 >
-                    <LinkedinLogo className="w-5 h-5" />
+                    <LinkedInLogoIcon className="w-5 h-5" />
                 </a>
             </div>
         </div>
