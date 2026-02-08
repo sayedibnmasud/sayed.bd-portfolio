@@ -3,8 +3,8 @@ import { User, Stack, Briefcase, Envelope, FileText } from '@phosphor-icons/reac
 export const BottomNav = ({ onOpenResume }) => {
     const navItems = [
         { icon: User, label: 'About', href: './#about' },
-        { icon: Stack, label: 'Expertise', href: './#expertise' },
         { icon: Briefcase, label: 'Journey', href: './#experience' },
+        { icon: Stack, label: 'Expertise', href: './#expertise' },
         { icon: FileText, label: 'Resume', href: '#' },
         { icon: Envelope, label: 'Contact', href: './#contact' },
     ];
