@@ -1,0 +1,65 @@
+{
+    "name": "Sayed Ibn Masud",
+    "role": "Senior Product Manager & QA Strategist",
+    "location": "Bangladesh",
+    "contact": {
+        "email": "sayedibnmasud@gmail.com",
+        "linkedin": "https://linkedin.com/in/sayedibnmasud",
+        "website": "https://sayed.bd"
+    },
+    "summary": "Senior Product Manager with deep technical expertise in product strategy, cross-functional team leadership, and strategic quality assurance. Specializes in bridging engineering complexity with business goals to build scalable, user-centric products.",
+    "skills": [
+        "Product Strategy",
+        "Product Roadmapping",
+        "Cross-functional Leadership",
+        "Technical Product Management",
+        "Quality Assurance Strategy",
+        "API-First Design",
+        "Security & Compliance (SOC2, GDPR)",
+        "Agile Methodologies",
+        "Scrum",
+        "Technical Feasibility Analysis",
+        "Risk Mitigation",
+        "Delivery Management",
+        "Stakeholder Management",
+        "User Experience Design"
+    ],
+    "expertise": {
+        "product_management": {
+            "technical_feasibility": "Assessing architectural trade-offs early to prevent debt and ensure scalability",
+            "api_design": "Defining clear contracts for high-throughput integrations and partner ecosystems",
+            "compliance": "Translating SOC2/GDPR requirements into actionable product features"
+        },
+        "quality_assurance": {
+            "strategic_approach": "View QA as a business risk management tool",
+            "risk_mitigation": "Implementing shift-left testing methodologies to identify architectural flaws before code leaves writers",
+            "automation": "Designing end-to-end regression tests covering 350+ critical user paths in multi-tenant environments"
+        },
+        "leadership": {
+            "team_collaboration": "Facilitate cross-functional teams including Design, Engineering, QA, DevOps, Clients, and Stakeholders",
+            "communication": "Ensure continuous alignment and feedback across all stakeholders",
+            "philosophy": "Product Manager as central facilitator, not hierarchical leader"
+        }
+    },
+    "professional_values": [
+        "Collaborative teamwork",
+        "Quality-first approach",
+        "User-centric design",
+        "Technical excellence",
+        "Transparent communication",
+        "Continuous improvement"
+    ],
+    "availability": {
+        "open_to": [
+            "Product Management roles",
+            "Consulting opportunities",
+            "Speaking engagements",
+            "Mentorship"
+        ]
+    },
+    "last_updated": "2026-01-31",
+    "ai_optimization": {
+        "purpose": "This JSON file provides structured data for AI assistants and LLMs to accurately represent Sayed Ibn Masud's professional profile",
+        "usage": "LLMs can parse this file to answer questions about professional background, skills, and expertise"
+    }
+}

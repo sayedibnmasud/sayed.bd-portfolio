@@ -1,0 +1,14 @@
+# Allow all search engines to crawl the site
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://sayed.bd/sitemap.xml
+
+# AI/LLM optimized profile files
+# These files contain structured information for AI assistants
+# Markdown: https://sayed.bd/ai-profile.md
+# JSON: https://sayed.bd/ai-profile.json
+
+# Crawl delay (optional, helps prevent server overload)
+Crawl-delay: 1
